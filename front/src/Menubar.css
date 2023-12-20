@@ -1,0 +1,54 @@
+.cnn-navbar {
+    background-color: #cc0000; /* CNN's iconic red color */
+    border-bottom: 2px solid #a30000; /* Slightly darker red for the bottom border */
+}
+
+.cnn-navbar .navbar-brand {
+    color: #fff; /* White text for the brand */
+    font-weight: bold; /* Make the brand name bold */
+}
+
+.cnn-navbar .nav-link {
+    color: #fff; /* White text for navigation links */
+    margin-right: 15px; /* Space between nav items */
+}
+
+.cnn-navbar .nav-link:hover {
+    color: #a30000; /* Darker red on hover for contrast */
+}
+
+.cnn-navbar .navbar-toggler {
+    border-color: #fff; /* White border for the toggle button */
+}
+
+.cnn-navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg...>"); /* Customize the icon color */
+}
+
+.cnn-navbar .navbar-collapse {
+    justify-content: end; /* Align items to the right */
+}
+
+.cnn-navbar .nav-link {
+    color: #fff; /* White text for navigation links */
+    margin-right: 15px; /* Space between nav items */
+}
+
+.cnn-navbar .nav-link:hover {
+    color: #a30000; /* Darker red on hover for contrast */
+}
+
+/* Add styles for your loading component if needed */
+.loading-component {
+    /* Style your loading component here */
+}
+
+/* Styles for the user account and logout links */
+.cnn-navbar .user-account-link, .cnn-navbar .logout-link {
+    color: #fff; /* White text */
+}
+
+.cnn-navbar .user-account-link:hover, .cnn-navbar .logout-link:hover {
+    color: #a30000; /* Darker red on hover */
+}
+

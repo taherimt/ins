@@ -1,0 +1,89 @@
+body {
+    background-color: #f2f2f2; /* Light grey background */
+    color: #333; /* Dark grey text for high contrast */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.min-height {
+    min-height: calc(100vh - 120px); /* Adjust for your navbar and footer */
+}
+
+.search-bar {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #fff; /* White background for the search bar */
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.search-input {
+    border: 1px solid #ccd3d9; /* Light grey border */
+    border-radius: 0.25rem;
+    height: 38px; /* Match height with button */
+}
+
+.search-input:focus {
+    border-color: #cc0000; /* CNN's red color for focus */
+}
+
+.sort-dropdown {
+    border: 1px solid #ccd3d9; /* Light grey border */
+    border-radius: 0.25rem;
+    background-color: #cc0000; /* CNN's red color */
+    color: #fff; /* White text for contrast */
+}
+
+.sort-dropdown:hover,
+.sort-dropdown:focus {
+    background-color: #a30000; /* A darker shade of red for hover state */
+    color: #fff;
+}
+
+.pagination-nav .pagination-btn {
+    border-color: #cc0000; /* CNN's red color */
+    color: #cc0000; /* CNN's red color */
+    background-color: transparent; /* Transparent background */
+    margin: 0 4px; /* Space between buttons */
+}
+
+.pagination-nav .pagination-btn:hover,
+.pagination-nav .pagination-btn:focus {
+    background-color: #cc0000; /* CNN's red color */
+    color: #fff; /* White text for contrast */
+}
+
+.pagination-nav .pagination-btn:disabled {
+    color: #aaa; /* Light grey for disabled state */
+    border-color: #aaa;
+}
+
+/* Add custom styles for Articles and Sidebar components as needed */
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .search-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-input,
+    .sort-dropdown {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+
+    .pagination-nav .pagination-btn {
+        font-size: 0.875rem; /* Smaller text on mobile */
+    }
+}
+
+
+.main-slider {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.main-slider {
+    display: block;
+    margin: 10px;
+}

@@ -1,0 +1,73 @@
+/* ArticlesGrid.css */
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 180px; /* Fixed height for all images */
+    object-fit: cover; /* Keep images aspect ratio */
+}
+
+.card-body {
+    padding: 1rem;
+    background-color: #fff;
+    position: relative; /* For positioning the link as a stretched link */
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.card-subtitle {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    color: #6c757d;
+}
+
+.card-text {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 1.5rem; /* Give space for the 'Read full article' link */
+}
+
+.card-link {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: #007bff;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.card-link:hover {
+    color: #0056b3;
+    background-color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+
+    .card-img-top {
+        height: auto;
+    }
+}

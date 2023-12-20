@@ -1,0 +1,26 @@
+/* UserProfile.css */
+.user-profile {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.user-name {
+    color: #cc0000; /* CNN Red */
+    margin-bottom: 30px;
+}
+
+.sources-section, .categories-section, .authors-section {
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.basic-multi-select {
+    margin-top: 10px;
+}
